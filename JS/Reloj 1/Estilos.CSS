@@ -1,0 +1,21 @@
+body {
+    margin: 0;/*si se ponen varios valores, se lee top, bottom, left, right*/
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+#reloj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid cyan;
+    color: cyan;
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 28px;
+}
