@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Calcula el ancho y la altura totales de un elemento*/
+}
+body{
+    font-family: 'Arial';
+}
+.nav{
+    background-color: slateblue;
+    height: 70%;
+    padding: 0 50px;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.enlaces{
+    color: #fff;
+    text-decoration: none; /*quita las lineas*/
+    line-height: 70px;
+    padding: 0 20px;
+    display: inline-block;
+}
+.enlaces:hover{ /*el hover se usa para las transciciones,en enlaces*/
+    background: #fff;
+    color: brown;
+}
